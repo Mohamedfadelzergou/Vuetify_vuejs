@@ -9,7 +9,7 @@
         elevate-on-scroll
         >
         <v-toolbar-title>
-        Vuetify APP
+        Zergou APP
         </v-toolbar-title>
         <v-spacer/>
         <v-list class="d-flex align-center">
@@ -46,5 +46,10 @@ export default {
 </script>
 
 <style>
-
+    .v-toolbar__title {
+        font-size: 32px;
+        font-weight: 700;
+        font-family: cursive;
+        color: #4caf50;
+    }
 </style>
